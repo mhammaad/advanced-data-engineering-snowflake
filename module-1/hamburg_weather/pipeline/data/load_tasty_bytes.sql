@@ -305,6 +305,7 @@ USE WAREHOUSE demo_build_wh;
     city_population
  )
  FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/country/;
+ --dummy change
 
 
 -- franchise table load
